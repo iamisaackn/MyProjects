@@ -10,7 +10,7 @@ This is a simple Dad Jokes Generator web application that fetches a random dad j
 - Web browser
 
 ## DEMO
-You can try out the Dad Jokes Generator by clicking [here](https://iamisaackn.github.io/Riddles-API/).
+You can try out the Dad Jokes Generator by clicking [here](https://iamisaackn.github.io/Dad_Jokes_Generator/).
 
 ## Installation
 1. Clone the repository or download the project files.
