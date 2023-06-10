@@ -2,7 +2,7 @@
 This project is a simple feedback user interface (UI) implemented using HTML, CSS, and JavaScript. It allows users to provide feedback by selecting a rating option and submitting it. The selected rating is then displayed on the screen with a thank you message.
 
 ## Demo
-To view the demo live Click [Here][https://iamisaackn.github.io/Feedback_UI/]
+To view the demo live Click [Here](https://iamisaackn.github.io/Feedback_UI/)
 
 ## Project Structure
 The project consists of three files:
