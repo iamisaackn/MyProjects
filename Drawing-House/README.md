@@ -2,9 +2,9 @@
 
 This project showcases a simple house design using HTML and CSS.
 
-## Preview
+## Demo
 
-![House Preview](https://iamisaackn.github.io/Drawing-House/)
+To view the demo Click [Here](https://iamisaackn.github.io/Drawing-House/)
 
 ## Installation
 
@@ -19,8 +19,11 @@ The `index.html` file contains the HTML structure of the house design, and `the 
 The project has the following structure:
 
 ├── index.html
+
 ├── index.css
+
 ├── house_preview.png
+
 └── README.md
 
 - `index.html`: Contains the HTML structure of the house design.
