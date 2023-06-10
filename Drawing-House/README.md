@@ -22,13 +22,11 @@ The project has the following structure:
 
 ├── index.css
 
-├── house_preview.png
-
 └── README.md
 
 - `index.html`: Contains the HTML structure of the house design.
 - `index.css`: Contains the CSS styling for the house design.
-- `https://iamisaackn.github.io/Drawing-House/`: Preview image of the house design.
+- `https://iamisaackn.github.io/Drawing-House/`: View image of the house design.
 - `README.md`: Documentation file for the project.
 
 ## Customization
