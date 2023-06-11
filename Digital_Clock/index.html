@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<!--tells the browser which version of html the website is
+    written in-->
+<html lang="en">
+  <!--language is English-->
+  <head>
+    <meta charset="UTF-8" />
+    <!--charset- describes the html character in coding*/ /*UTF-8- contains all
+    characters and symbols-->
 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--IE- tells the browser to use the recent engine that is edge-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--tells the browser how to resize the website-->
+
+    <title>Digital-Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Digital Clock</h2>
+    <div class="clock">
+      <div>
+        <span id="hour">00</span>
+        <span class="text">Hours</span>
+      </div>
+      <div>
+        <span id="minute">00</span>
+        <span class="text">Minutes</span>
+      </div>
+      <div>
+        <span id="second">00</span>
+        <span class="text">Seconds</span>
+      </div>
+      <div>
+        <span id="ampm">AM</span>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
