@@ -5,7 +5,7 @@ This is a simple project that demonstrates a background image scroll effect usin
 ## Demo
 You can see a live demo of this project here.
 
-https://github.com/iamisaackn/Background_Image_Scroll_Effect/assets/117882836/4acedff6-9dac-424e-985e-4001b52cbfd1
+
 
 ## Getting Started
 To use this project, follow these steps:
