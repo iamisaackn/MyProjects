@@ -14,6 +14,10 @@ To use the digital clock, follow these steps:
 ## Features
 - Real-time display of hours, minutes, and seconds.
 - Automatic update every second.
+
+## Live Demo
+To view the live demo Click [Here](https://iamisaackn.github.io/Digital_Clock/)
+
 ## Preview
 
 https://github.com/iamisaackn/digital_clock/assets/117882836/9c07874a-b108-46bc-bc4a-62c205426ded
