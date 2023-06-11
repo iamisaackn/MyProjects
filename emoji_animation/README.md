@@ -4,7 +4,7 @@ This project is a simple HTML, CSS, and JavaScript application that displays an 
 
 ## Demo
 
-To see the project in action.
+To see the project in action, [Click Here](https://iamisaackn.github.io/emoji_animation/)
 
 https://github.com/iamisaackn/happy_pride_month/assets/117882836/fad39e7d-ee73-4c57-bef7-4af152165824
 
