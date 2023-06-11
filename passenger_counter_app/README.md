@@ -1,27 +1,25 @@
-Passenger Counter App
+# Passenger Counter App
 This is a simple web application that allows you to count the number of people entering a location. It provides a user interface with a counter and buttons to increment the count and save the count. The app is built using HTML, CSS, and JavaScript.
 
-Installation
+## Installation
 To use this app, simply clone the repository and open the index.html file in your web browser.
 
-bash
-Copy code
-git clone https://github.com/your-username/passenger-counter-app.git
-Usage
+## Usage
 Once you have the app running, you can start counting the number of people entering by clicking the "INCREMENT" button. The current count will be displayed on the screen.
 
 To save the count, click the "SAVE" button. The count will be added to the saved count list, and the current count will be reset to zero.
 
-Project Structure
+## Project Structure
 The project files are organized as follows:
 
-index.html: The main HTML file that defines the structure of the web page.
-style.css: The CSS file that provides the styling for the app.
-index.js: The JavaScript file that contains the logic for the app.
-Dependencies
-This app uses the following dependencies:
+. `index.html`: The main HTML file that defines the structure of the web page.
+. `style.css`: The CSS file that provides the styling for the app.
+. `index.js`: The JavaScript file that contains the logic for the app.
 
-Poppins: A Google Font used for the app's typography.
+## Dependencies
+This app uses the following dependencies:
+. Poppins: A Google Font used for the app's typography.
+
 Contributing
 Contributions are welcome! If you find any issues or want to add new features, feel free to open an issue or submit a pull request.
 
