@@ -1,0 +1,81 @@
+/*
+1. * (Universal Selector): Selects all elements in the document.
+   margin: 0; sets the margin to 0 for all elements.
+   padding: 0; sets the padding to 0 for all elements.
+   font-family: 'Poppins', sans-serif; sets the font family to 'Poppins' or a generic sans-serif font for all elements.
+   box-sizing: border-box; sets the box-sizing property to border-box for all elements.
+   .container: Selects an element with the class "container".
+
+2. width: 100%; sets the width to 100% of its container.
+   height: 100vh; sets the height to 100% of the viewport height.
+   background: #e3f9ff; sets the background color to #e3f9ff.
+   display: flex; enables flexbox layout on the element.
+   align-items: center; vertically aligns the flex items at the center.
+   `justify-content: center
+*/
+
+
+/* Reset default margin, padding, font family, and box sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Style the container element */
+.container {
+   width: 100%;
+   height: 100vh;
+   background: #e3f9ff; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* Style the calculator element */
+.calculator {
+    background-color: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Style the input elements inside the calculator form */
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Style the display section inside the calculator form */
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+/* Style the input element inside the display section */
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+/* Style the input element with class "equal" inside the calculator form */
+form input.equal {
+    width: 145px;
+}
+
+/* Style the input elements with class "operator" inside the calculator form */
+form input.operator {
+    color: #33ffd8;
+}
