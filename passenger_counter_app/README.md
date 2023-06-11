@@ -12,9 +12,9 @@ To save the count, click the "SAVE" button. The count will be added to the saved
 ## Project Structure
 The project files are organized as follows:
 
-. `index.html`: The main HTML file that defines the structure of the web page.
-. `style.css`: The CSS file that provides the styling for the app.
-. `index.js`: The JavaScript file that contains the logic for the app.
+\. `index.html`: The main HTML file that defines the structure of the web page.
+\. `style.css`: The CSS file that provides the styling for the app.
+\. `index.js`: The JavaScript file that contains the logic for the app.
 
 ## Dependencies
 This app uses the following dependencies:
