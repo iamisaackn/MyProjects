@@ -1,0 +1,126 @@
+/* Step 1: Styling the navigation bar /
+.navbar {
+display: flex; / Use flexbox for layout /
+position: fixed; / Fix the navbar to the viewport /
+background-color: white; / Set background color to white /
+width: 100%; / Set the width to 100% of the viewport /
+justify-content: space-between; / Space items evenly along the horizontal axis /
+align-items: center; / Center items vertically /
+box-shadow: 0 4px 8px rgba(0, 0, 0, .3); / Apply a box shadow for a subtle effect /
+transition: background-color 0.5s; / Add a smooth transition effect to the background color */
+
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    transition: background-color 0.5s;
+}
+
+/* Step 2: Styling the unordered list inside the navbar /
+.navbar ul {
+display: flex; / Use flexbox for layout /
+list-style-type: none; / Remove the default bullet points */
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+/* Step 3: Styling the links inside the list items /
+.navbar ul li a {
+text-decoration: none; / Remove the underline /
+margin: 0 10px; / Add margin around each link /
+color: black; / Set the text color to black /
+font-family: cursive; / Use the cursive font family */
+
+.navbar ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: cursive;
+
+}
+
+/* Step 4: Styling the links when hovered /
+.navbar ul li a:hover {
+color: red; / Change the text color to red on hover */
+
+.navbar ul li a:hover {
+    color: red;
+}
+
+/* Step 5: Resetting the default margin on the body /
+body {
+margin: 0; / Remove the default margin */
+
+body {
+    margin: 0;
+
+}
+
+/* Step 6: Styling the top container /
+.top-container {
+background-image: url("https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"); / Set the background image /
+height: 100vh; / Set the height to 100% of the viewport /
+background-size: cover; / Scale the background image to cover the container /
+display: flex; / Use flexbox for layout /
+justify-content: center; / Center items horizontally /
+align-items: center; / Center items vertically /
+text-align: center; / Center text horizontally */
+
+.top-container {
+    background-image: url("https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Step 7: Styling the heading inside the top container /
+.top-container h1 {
+color: white; / Set the text color to white /
+font-size: 50px; / Set the font size to 50 pixels /
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; / Use multiple font families /
+letter-spacing: 2px; / Add letter spacing */
+
+.top-container h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+/* Step 8: Styling the text class /
+.text {
+margin: 50px 5%; / Add margin around the text /
+font-family: sans-serif; / Use the sans-serif font family */
+
+.text {
+    margin: 50px 5%;
+    font-family: sans-serif;
+}
+
+/* Step 9: Styling the navbar when active /
+.navbar.active {
+background-color: black; / Change the background color to black */
+
+.navbar.active {
+    background-color: black;
+
+}
+
+/* Step 10: Styling the links inside the navbar when active /
+.navbar.active ul li a {
+color: white; / Change the text color to white */
+
+.navbar.active ul li a {
+    color: white;
+}
