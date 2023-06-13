@@ -11,7 +11,7 @@ To run this application, you need to have the following:
 3. Open the `index.html` file in a web browser.
 
 ## DEMO
-To get a live view [Click Here](iamisaackn.github.io/WeatherAppify/)
+To get a live view [Click Here](https://iamisaackn.github.io/WeatherAppify/)
 ## Usage
 1. Enter the name of a city in the input field provided.
 2. Press the "Submit" button or hit Enter.
