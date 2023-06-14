@@ -3,6 +3,9 @@ This project is an ImageHunt App that allows users to search for images using ke
 It utilizes the Unsplash API to fetch and display the search results.
 The app provides a simple and user-friendly interface where users can enter their search query and view the corresponding images.
 
+## Live Demo
+To view live demo [Click Here](https://iamisaackn.github.io/ImageHunt-App/)
+
 ## Features
 1. Background Image: The app initially displays a background image, creating an appealing visual experience for the users.
 2. Search Input: Users can enter their search query in the input field provided.
