@@ -1,5 +1,5 @@
 # Timer
-This code snippet provides a JavaScript implementation of a timer that can be easily integrated into your project. The timer allows you to start, stop, and reset the elapsed time.
+This project uses JavaScript to implement a timer. The timer allows you to start, stop, and reset the elapsed time.
 
 ## Usage
 To use the timer in your project, follow these steps:
