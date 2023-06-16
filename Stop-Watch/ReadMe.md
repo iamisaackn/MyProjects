@@ -1,6 +1,9 @@
 # Timer
 This project uses JavaScript to implement a timer. The timer allows you to start, stop, and reset the elapsed time.
 
+## Live DEMO
+To view the live demo [Click Here](https://iamisaackn.github.io/Stop-Watch/)
+
 ## Usage
 To use the timer in your project, follow these steps:
 
