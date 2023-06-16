@@ -16,5 +16,5 @@ The code also sets up event listeners for three buttons:
 - `startButtonEl`: Button element that starts the timer.
 - `stopButtonEl`: Button element that stops the timer.
 - `resetButtonEl`: Button element that resets the timer.
-- 
+
 Make sure to adjust the IDs of the buttons in the HTML markup to match your own button IDs.
