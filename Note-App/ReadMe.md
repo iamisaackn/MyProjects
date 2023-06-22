@@ -3,6 +3,9 @@ This project is a simple web-based note-taking application.
 It allows users to create, update, and delete notes dynamically within their web browser.
 The notes are stored in the browser's `localStorage`, ensuring that they persist even after the page is refreshed or closed.
 
+## Live Demo
+To view [Click Here](https://iamisaackn.github.io/Note-App/)
+
 ## Functionality
 The application provides the following functionality:
 1. Display Existing Notes: Upon loading the page, the application retrieves the existing notes from `localStorage` and displays them in the app area.
