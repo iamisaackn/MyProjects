@@ -3,22 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" /> <!-- External CSS file for styling -->
     <title>Currency Converter</title>
   </head>
   <body>
     <div class="container">
       <h1>Currency Converter</h1>
       <div class="currency-container">
-        <select id="currency-first"></select>
-        <input type="number" id="worth-first" value="1" min="0" />
+        <select id="currency-first"></select> <!-- Select element for the first currency -->
+        <input type="number" id="worth-first" value="1" min="0" /> <!-- Input element for the amount of the first currency -->
       </div>
       <div class="currency-container">
-        <select id="currency-second"></select>
-        <input type="number" id="worth-second" disabled />
+        <select id="currency-second"></select> <!-- Select element for the second currency -->
+        <input type="number" id="worth-second" disabled /> <!-- Input element for the converted amount of the second currency (disabled) -->
       </div>
-      <p class="exchange-rate" id="exchange-rate"></p>
+      <p class="exchange-rate" id="exchange-rate"></p> <!-- Paragraph element to display the exchange rate -->
     </div>
-    <script src="index.js"></script>
+    <script src="index.js"></script> <!-- External JavaScript file for the logic -->
   </body>
 </html>
