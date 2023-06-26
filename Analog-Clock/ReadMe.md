@@ -3,6 +3,9 @@
 ## Project Overview
 The project is a simple analog clock implemented using HTML, CSS, and JavaScript. It displays the current time with hour, minute, and second hands, along with labeled digits for the hours. The clock design can be customized through CSS styles.
 
+## Demo
+To view the live domo, [Click Here](https://iamisaackn.github.io/Analog-Clock/)
+
 ## Files in the Project
 The project consists of the following files:
 - `index.html`: Contains the HTML structure of the clock.
