@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7d7e1;
+    /* Light pink background color */
+}
+
+.container {
+    position: relative;
+}
+
+.clock {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #000000;
+    /* Black background color */
+    border: 2px solid #ffffff;
+    /* White border color */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock span {
+    position: absolute;
+    transform: rotate(calc(30deg * var(--i)));
+    inset: 12px;
+    text-align: center;
+    color: #ff7d9c;
+    /* Pink text color */
+    font-weight: bold;
+    /* Added font weight */
+}
+
+.clock span b {
+    transform: rotate(calc(-30deg * var(--i)));
+    display: inline-block;
+    font-size: 18px;
+    /* Decreased font size */
+}
+
+.clock::before {
+    content: " ";
+    position: absolute;
+    width: 10px;
+    /* Increased size */
+    height: 10px;
+    /* Increased size */
+    border-radius: 50%;
+    background-color: #ff7d9c;
+    /* Pink dot color */
+    z-index: 2;
+}
+
+.hand {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hand i {
+    position: absolute;
+    background-color: #ff7d9c;
+    /* Pink clock hand color */
+    width: 4px;
+    height: var(--h);
+    border-radius: 8px;
+}
