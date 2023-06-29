@@ -15,9 +15,18 @@ To view the live Demo [Click Here](https://iamisaackn.github.io/SportsHub%20(E-C
 ## Contains:
 - Responsive Home Page Design.
 - Shop Page & Single Product Page.
+- Cart Page
 - Blog Page.
 - About Page.
 - Contact Us.
 - Ecommerce Shopping Cart.
 
+## Vivid Description
+1. [Home Page](./home.md)
+2. [About Page](./about.md)
+3. [Home Page](./home.md)
+4. [Contact Us](./contact-us.md)
+5. [Blog Page](./blog.md)
+6. [Shop Page](./shop.md)
+7. [Cart Page](./cart.md)
   
