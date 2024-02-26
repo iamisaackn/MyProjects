@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Villa Rosa Kibadaski</title>
+    <link rel="stylesheet" type="text/css" href="kibadaski.css">
+    <script src="registration.js"></script>
+</head>
+<body>
+    <h1>Customer Registration</h1>
+    <section id="header">
+        <nav>
+            <ul>
+                <a href="menu.html"><li>Menu</li></a>
+                <a class="active" href="registration.html"><li>Registration</li></a>
+                <a href="about.html"><li>About Us</li></a>
+            </ul>
+        </nav>
+    </section>
+    
+    <section id="registration">
+        <form action="registration.php" method="post" onsubmit="return validateEmail()">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
